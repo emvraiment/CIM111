@@ -1,0 +1,48 @@
+body{
+  background-color:grey;
+  color:rgb(103, 103, 103);
+  font-family: "courier new"
+}
+
+p{
+  color:white;
+
+}
+
+a{
+	color: black;
+
+    text-decoration: none;
+
+}
+
+a:hover{
+	color:pink;
+
+}
+
+#one {
+  color:black;
+  font-size: 40px;
+}
+
+.text{
+  color:black
+}
+
+.title{
+text-align: center;
+color:blue;
+}
+
+
+
+.list{
+  color:pink;
+
+}
+
+#end {
+  color:pink;
+  font-size: 40px;
+}
