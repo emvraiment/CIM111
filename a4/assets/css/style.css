@@ -1,0 +1,107 @@
+body{
+  background-color:white;
+  color:rgb(103, 103, 103);
+  font-family: "courier new"
+}
+
+
+
+}
+body, html {
+  height: 100%;
+}
+
+
+
+html {
+  background: url(../images/pug1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative
+}
+
+
+@media screen and (max-width: 1024px) {
+  .bg {
+    left: 50%;
+    margin-left: -512px;
+  }
+}
+
+
+h1 {
+    text-align: center;
+
+}
+
+
+
+
+div.see {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+div.see p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  position: absolute;
+  bottom: 100px;
+  left: 200px;
+
+#bg{
+  width: 710px
+}
+
+#home{
+  color: black
+
+}
+
+}
+
+.bx p{
+	margin: 0;
+}
+
+.menu ul{
+	display: grid;
+  list-style-type: none;
+  margin: 0;
+	padding: 0;
+	list-style: none;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+li{
+	margin-right: 10px;
+	text-align: center;
+	font-size: 16px;
+
+}
+
+li a {
+  display: block;
+  width: 60px;
+}
+
+
+
+
+a{
+	color: brown;
+text-decoration: none;
+text-align; right;
+
+}
+
+a:hover{
+	color:grey;
+
+}
